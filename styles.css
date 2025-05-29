@@ -101,6 +101,26 @@ header {
     width: 100%;
 }
 
+.menu-acesibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display: flex;
+}
+
+.opcoes-acessibilidade button{
+    margin-buttom: 5px
+}
+
+.apresenta-lita{
+    display: none;
+}
+
 #theme-toggle {
     background: none;
     border: none;

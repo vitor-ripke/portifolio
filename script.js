@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+    const botãodeacessibilidade = document.getElementById('botao-aceibilidade');
+    const opcoesdeacesibilidae = document.getElementById('opcoes-acessibilidade')
+    
     document.getElementById('year').textContent = new Date().getFullYear();
 
     const hamburger = document.querySelector('.hamburger');
@@ -213,4 +217,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 2000);
         }, 1500);
     });
+    const aumentafontebotao = document.getElementById('aumentar-fonte');
+    const diminuifontebotao = document.getElementById('diminuir-fonte');
+
+    let tamanhoatualfonte = 1;
+
+        aumentafontebotao.addEventListener('click' function () {
+            tamanhoatualfonte += 0.1;
+            document.body.style.fontSize = '${ tamanhoatual'
+    })
 });
